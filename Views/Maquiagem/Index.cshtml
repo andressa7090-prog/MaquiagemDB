@@ -1,3 +1,5 @@
+@model List<Atividade1_MVC.Models.Maquiagem>
+
 <body>
     <h1>Produtos - Maquiagens</h1>
 
@@ -15,7 +17,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            @* <tr>
                 <td>Batom Matte</td>
                 <td>Ruby Rose</td>
                 <td>Acabamento seco, alta fixação.</td>
@@ -24,7 +26,21 @@
                 <td>
                     <button>Excluir</button>
                 </td>
-            </tr>
+            </tr> *@
+
+            @foreach (Maquiagem m in Model)
+            {
+                <tr>
+                    <td>@m.Nome</td>
+                    <td>@m.Marca</td>
+                    <td>@m.Descricao</td>
+                    <td>@m.Quantidade</td>
+                    <td>@m.Avaliacao</td>
+                    <td>
+                        <button>Excluir</button>
+                    </td>
+                </tr>
+            }
         </tbody>
     </table>
 </body>

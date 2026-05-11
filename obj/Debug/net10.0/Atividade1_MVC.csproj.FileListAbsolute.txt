@@ -145,3 +145,4 @@ C:\Users\53968819845\Desktop\Atividade1_MVC\obj\Debug\net10.0\refint\Atividade1_
 C:\Users\53968819845\Desktop\Atividade1_MVC\obj\Debug\net10.0\Atividade1_MVC.pdb
 C:\Users\53968819845\Desktop\Atividade1_MVC\obj\Debug\net10.0\Atividade1_MVC.genruntimeconfig.cache
 C:\Users\53968819845\Desktop\Atividade1_MVC\obj\Debug\net10.0\ref\Atividade1_MVC.dll
+C:\Users\53968819845\Desktop\Atividade1_MVC\obj\Debug\net10.0\Atividade1_MVC.sourcelink.json
